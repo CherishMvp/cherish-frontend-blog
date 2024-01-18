@@ -158,7 +158,7 @@ const githubLogin = () => {
 请求头里需要添加token
 
 ```js
-https://api.github.com/repos/zqy233/formatAndSave/issues
+https://api.github.com/repos/xxx/formatAndSave/issues
 ```
 
 title参数即问题名称，必须传
