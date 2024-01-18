@@ -17,8 +17,8 @@ export default {
       clientID: '20f8cea4f1ef5c3564d9',
       clientSecret: '783ca81914654d8cf6eebd313d2b39ad4e734cb9',
       repo: 'webpack5-learn',
-      owner: 'zqy233',
-      admin: ['zqy233'],
+      owner: 'cherishmvp',
+      admin: ['cherishmvp'],
       id: md5(location.pathname),
       distractionFreeMode: false,
     }

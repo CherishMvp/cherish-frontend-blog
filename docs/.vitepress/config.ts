@@ -3,10 +3,10 @@ import { getSidebar, getNav } from '../../doc-deal/getNavAndSidebar'
 
 export default defineConfig({
   lang: 'zh-CN',
-  base: '/zqy-blog/',
-  title: 'zqy233的前端学习笔记',
-  description: 'zqy233的前端学习笔记',
-  head: [['link', { rel: 'icon', href: '/zqy-blog/favicon.ico' }]],
+  base: '/cherish-frontend-blog/',
+  title: 'zwt的前端学习笔记',
+  description: 'zwt的前端学习笔记',
+  head: [['link', { rel: 'icon', href: '/cherish-frontend-blog/favicon.ico' }]],
   lastUpdated: true,
   markdown: {
     lineNumbers: true,
@@ -35,13 +35,13 @@ export default defineConfig({
     sidebarMenuLabel: '目录',
     returnToTopLabel: '回到顶部',
     editLink: {
-      pattern: 'https://github.com/zqy233/zqy-blog/edit/main/docs/:path',
+      pattern: 'https://github.com/cherishmvp/cherish-frontend-blog/edit/main/docs/:path',
       text: '在GitHub编辑此页',
     },
     socialLinks: [
       {
         icon: 'github',
-        link: 'https://github.com/zqy233/zqy-blog',
+        link: 'https://github.com/cherishmvp/cherish-frontend-blog',
       },
     ],
     algolia: {

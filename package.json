@@ -1,7 +1,7 @@
 {
-  "name": "zqy-blog",
+  "name": "cherish-blog",
   "version": "0.0.1",
-  "description": "zqy233的前端学习笔记",
+  "description": "zwt的前端学习笔记",
   "scripts": {
     "watch": "npx nodemon --watch docs -e md --exec pnpm run docs",
     "docs": "vitepress dev docs --temp",

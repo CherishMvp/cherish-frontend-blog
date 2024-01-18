@@ -12,7 +12,7 @@
 
 Hi there 👋
 
-Thanks for your interest and trust in Algolia DocSearch. We've received your request for https://zqy233.github.io/zqy-blog/, and will get back to you soon.
+Thanks for your interest and trust in Algolia DocSearch. We've received your request for https://cherishmvp.github.io/cherish-fronend-blog/, and will get back to you soon.
 
 DocSearch is built in two parts:
 \- A crawler which we run in our own infrastructure every week (configurable). It follows every link in your website and extracts content from every page it traverses. It then pushes this content to an Algolia index. (Read more: https://www.algolia.com/doc/tools/crawler/getting-started/overview/ )
@@ -26,7 +26,7 @@ Have a great day,
 The DocSearch team.
 
 你好👋
-感谢您对Algolia DocSearch的兴趣和信任。我们已收到您的请求https://zqy233.github.io/zqy-blog/，很快就会回复您。
+感谢您对Algolia DocSearch的兴趣和信任。我们已收到您的请求https://cherishmvp.github.io/cherish-fronend-blog/，很快就会回复您。
 DocSearch由两部分组成：
 -我们每周在自己的基础设施中运行的爬虫（可配置）。它跟踪您网站中的每个链接，并从它浏览的每个页面中提取内容。然后将此内容推送到Algolia索引。（阅读更多：https://www.algolia.com/doc/tools/crawler/getting-started/overview/ )
 -要插入到网站中的JavaScript代码段，将此Algolia索引绑定到搜索输入，并在模态UI中显示其结果。（阅读更多：https://github.com/algolia/docsearch )

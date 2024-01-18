@@ -1,8 +1,8 @@
 ---
 layout: home
-title: zqy233的前端学习笔记
+title: zwt的前端学习笔记
 hero:
-  name: zqy233的
+  name: zwt的
   text: 前端学习笔记
   image:
     src: /logo.jpg
@@ -13,7 +13,7 @@ hero:
       link: /1.基础/1.html/1.基础
     - theme: alt
       text: View on GitHub
-      link: https://github.com/zqy233/zqy-blog
+      link: https://github.com/cherishmvp/cherish-frontend-blog
 features:
   - title: 🦾 学就完了
     details: vue3,typescript,vite,rollup,webpack,electron ... 学不完了
