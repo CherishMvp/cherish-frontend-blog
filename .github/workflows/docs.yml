@@ -58,7 +58,11 @@ jobs:
         run: export NODE_OPTIONS=--max_old_space_size=4096 && pnpm run docs:build
 
       - name: Deploy docs
-        if: ${{ github.event_name == 'push' || inputs.deploy }}
+        if: |
+          ${{ github.event_name == 'push' && (
+            github.actor == 'CherishTao' ||
+            github.actor == 'zhangwt'
+          ) || inputs.deploy }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GH_TOKEN  }}
