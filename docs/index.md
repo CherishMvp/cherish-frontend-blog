@@ -19,7 +19,7 @@ features:
     details: vue3,typescript,vite,rollup,webpack,electron ... 学不完了
   - title: 📝 随手记录
     details: 可能存在错误，欢迎指正
-  - title: 😍 vitepress真好用
+  - title: 😍 vitepress挺好用的
     details: ...
 
 ---
