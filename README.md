@@ -20,3 +20,5 @@ pnpm watch
 生产环境，基于 github workflow 实现 git push 后自动打包发布
 
 最终实现无论是开发还是生产，都只需关注 md 本身编写
+
+部署环境记得拿到github的token
