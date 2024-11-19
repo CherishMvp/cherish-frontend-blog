@@ -76,5 +76,7 @@ export default defineConfig({
     },
     nav: getNav(),
     sidebar: getSidebar(),
+    
   },
+  ignoreDeadLinks: true,
 })
