@@ -1,6 +1,6 @@
 # ✨zwt的前端学习笔记
 
-> https://cherishmvp.github.io/cherish-frontend-blog/
+> 预览地址 https://cherishmvp.github.io/cherish-frontend-blog/
 
 ## 运行项目
 

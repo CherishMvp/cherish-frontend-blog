@@ -44,10 +44,35 @@ export default defineConfig({
         link: 'https://github.com/cherishmvp/cherish-frontend-blog',
       },
     ],
-    algolia: {
-      appId: 'LOTANXB4BM',
-      apiKey: '4a0f29536bc8bf2ddd3dfbcbfdb68581',
-      indexName: 'zqy',
+    // 搜索配置
+
+    search: {
+      provider: 'local',
+        options: {
+        locales: {
+          zh: {
+            translations: {
+              button: {
+                buttonText: '搜索文档',
+                buttonAriaLabel: '搜索文档'
+              },
+              modal: {
+                noResultsText: '无法找到相关结果',
+                resetButtonTitle: '清除查询条件',
+                footer: {
+                  selectText: '选择',
+                  navigateText: '切换'
+                }
+              }
+            }
+          }
+        }
+      } 
+            // algolia: {
+    //   appId: 'M6EYNJ9AFT',
+    //   apiKey: '1672da66c356b2a2dab6510e0ed17778',
+    //   indexName: 'cherish-frontend-blog',
+    // },
     },
     nav: getNav(),
     sidebar: getSidebar(),

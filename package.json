@@ -2,6 +2,7 @@
   "name": "cherish-blog",
   "version": "0.0.1",
   "description": "zwt的前端学习笔记",
+  "type": "module",
   "scripts": {
     "watch": "npx nodemon --watch docs -e md --exec pnpm run docs",
     "docs": "vitepress dev docs --temp",
@@ -16,7 +17,7 @@
   },
   "devDependencies": {
     "@types/node": "^18.14.0",
-    "vitepress": "1.0.0-alpha.45"
+    "vitepress": "^1.5"
   },
   "license": "MIT",
   "pnpm": {
