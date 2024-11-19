@@ -52,7 +52,7 @@ jobs:
           restore-keys: ${{ runner.os }}-pnpm-store-
 
       - name: Install dependencies
-        run: pnpm i --frozen-lockfile
+        run: pnpm i 
 
       - name: Build docs
         run: export NODE_OPTIONS=--max_old_space_size=4096 && pnpm run docs:build
